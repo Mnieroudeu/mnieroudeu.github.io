@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
    }
+
+html {
+  background: black;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  transition: all 0.15s, color 1s;
+}
+
+.links:hover {
+  font-size: 3.1rem;
+  color: burlywood;
+}
+
+.cat-ok {
+  transition: all 0.17s;
+}
+
+.cat-ok:hover {
+  transform: rotate(11deg);
+  transform scaleY(1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #111114;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.footer:hover {
+  background-color: #111124;
+}
